@@ -3,7 +3,7 @@ Display an airport's incoming flights with the FlightAware v3 API and Flapper sp
 
 ![Incoming Flights Example](/demo/incoming-flights-487.gif?raw=true "Incoming Flights in Action")
 
-Leave the web page open, and it'll automatically refresh itself every 10 minutes with the 3 closest flights to your airport.
+That's just an animated gif - <a href="https://ozar.me/incomingflights/">here is the actual animation.</a> Note that the flights aren't up to date - it's just a static example.
 
 Requires a <a href="https://flightaware.com/commercial/flightxml/v3/pricing.rvt">FlightAware v3 API account.</a> As of 2018-09, that's up to 500 queries per month free (one update every ~90 minutes), or an update every 18 minutes for $13/mo, or every 2 minutes for $50/mo.
 
@@ -22,6 +22,9 @@ To set your airport, edit the index.php file. Look for this line:
 And change the SAN airport code to your own airport code.
 
 Upload the files to your web server. You probably don't want them in a publicly accessible place since any visitor can exhaust your API request limit.
+
+Leave the web page open, and it'll automatically refresh itself every 10 minutes with the 3 closest flights to your airport.
+
 
 ## License
 
